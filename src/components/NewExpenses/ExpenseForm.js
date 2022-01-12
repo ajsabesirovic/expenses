@@ -2,17 +2,6 @@ import React,{useState} from "react";
 import './ExpenseForm.css'
 
 function ExpenseForm(){
-    // const [userInput,setUserInput] = useState({
-    //     enteredTitle : '',
-    //     enteredAmount: '',
-    //     enteredDate: ''
-    // })
-    // const titleChanger = (event) => {
-    //     setUserInput((previousState) => {
-    //         return {...previousState, enteredAmount : event.target.value}
-    
-    //     })
-    // }
     
     const [enteredTitle,setEnteredTitle] = useState('')
     const [enteredAmount,setEnteredAmount] = useState('')
